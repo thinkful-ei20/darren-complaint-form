@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+label, input {
+  display: block;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.message {
+  padding: 12px 6px;
+}
+
+.message-success {
+  background-color: #5CB85C;
+  color: white;
+}
+
+.message-error, .form-error {
+  background-color: #d9534f;
+  color: white;
+}
+
+.form-error {
+  margin: 0 6px;
+  padding: 6px;
+  display: inline-block;
+}
